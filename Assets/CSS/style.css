@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Lucida Grande";
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
     box-sizing: border-box;
 }
@@ -60,6 +60,7 @@ p {
 #section3 {
     color: black;
 }
+
 .container {
     width: 90%;
     padding: 0 15px;
@@ -196,6 +197,8 @@ input:checked + .slider-btn:before {
     padding: 20px 12px;
 }
 
+
+
 .hero-image {
     background-image: url(../Images/Hero.jpg);
     width: 100%;
@@ -294,10 +297,12 @@ input:checked + .slider-btn:before {
     animation: none;
     text-align: left;
 }
+
 .about-right p{
     text-align: justify;
     margin-bottom: 10px;
 }
+
 .about-btn{
     display: inline-block;
     color: black;
@@ -308,6 +313,7 @@ input:checked + .slider-btn:before {
     position: relative;
     z-index: 1;
 }
+
 .about-btn::after{
     content: "";
     background-color: #00FFFF;
@@ -406,6 +412,7 @@ input:checked + .slider-btn:before {
 .grid-img8{
     background-image: url("../Grid/Grid8.jpg");
 }
+
 .grid-overlay{
     position: absolute;
     display: block;
@@ -455,7 +462,7 @@ input[type=text], select, textarea {
 }
 
 .button:hover {
-	background-color: #00FFFF;
+    background-color: #00FFFF;
     opacity: 1;
 }
 
@@ -513,7 +520,6 @@ footer {
     background-color: black;
     padding-bottom: 20px;
 }
-
      
 #BackToTop {
     position: fixed;
@@ -631,9 +637,6 @@ marquee img {
         display: flex;
         flex-direction: column;
     }
-    .footer-logo {
-        margin-left: 0;
-    }
 }
 
 @media screen and (max-width: 670px) {  
@@ -666,6 +669,10 @@ marquee img {
 
     .about-right p {
         font-size: 15px;
+    }
+
+    .about-btn {
+        display: none;
     }
 
     .hero-title {
@@ -750,10 +757,6 @@ marquee img {
 
     .footer .content {
         flex-direction: column;
-    }
-
-    .footer-logo {
-        margin-left: 0;
     }
 }
 
