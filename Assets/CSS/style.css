@@ -197,8 +197,6 @@ input:checked + .slider-btn:before {
     padding: 20px 12px;
 }
 
-
-
 .hero-image {
     background-image: url(../Images/Hero.jpg);
     width: 100%;
@@ -227,13 +225,14 @@ input:checked + .slider-btn:before {
     color: white;
     font-size: 18px;
     text-indent: 0%;
+    max-width: 50%;
 }
 
 .btn-hero {
-    position: absolute;
+    position: relative;
     display: inline-block;
     padding: 10px;
-    top: 350px;
+    top: 390px;
     left: 50px;
     color: #00FFFF;
     border: 2px solid #00FFFF;
@@ -483,17 +482,15 @@ input[type=text], select, textarea {
     margin-top: 5px;
     margin-bottom: -15px;
     filter: invert(1);
-    
 }
   
 .footer .content {
     display: flex;
     justify-content: space-evenly;
-    margin: 1.5rem;
 }
   
 .footer .content p {
-    margin-bottom: 1.3rem;
+    margin-bottom: 20px;
     text-align: left;
     text-indent: 0%;
 }
@@ -508,7 +505,7 @@ input[type=text], select, textarea {
 }
   
 .footer .content h4 {
-    margin-bottom: 1.3rem;
+    margin-bottom: 20px;
     font-size: 22px;
     text-align: left;
 }
@@ -531,7 +528,7 @@ footer {
     cursor: pointer;
     padding: 5px;
     border-radius: 5%;
-    font-size: 18px;
+    font-size: 15px;
     opacity: 0.8;
 }
   
@@ -606,13 +603,15 @@ marquee img {
     }
 
     .hero-p {
+        max-width: 60%;
+        top: 250px;
         text-indent: none;
         font-size: 16px;
         padding-right: 40px;
+        line-height: 30px;
     }
 
     .btn-hero {
-        margin-top: 20px;
         font-size: 15px;
     }
     
@@ -676,18 +675,22 @@ marquee img {
     }
 
     .hero-title {
-        font-size: 30px;
+        font-size: 28px;
+        padding-right: 20px;
     }
 
     .hero-p {
+        max-width: 80%;
         text-indent: none;
+        top: 260px;
         font-size: 15px;
-        padding-right: 40px;
+        line-height: 20px;
     }
 
     .btn-hero {
+        top: 350px;
         margin-top: 60px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     p {
@@ -757,6 +760,7 @@ marquee img {
 
     .footer .content {
         flex-direction: column;
+        margin-left: 25px;
     }
 }
 
